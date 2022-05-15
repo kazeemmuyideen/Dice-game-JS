@@ -1,0 +1,74 @@
+/* ************************************************ */
+/* BELOW 1344PX (smaller desktops) 1344px/16px */
+/* ************************************************ */
+
+/* ************************************************ */
+/* BELOW 1200PX (landscape Tablets) 1200px/16px */
+/* ************************************************ */
+
+@media(max-width: 75em){
+   html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+
+    height: 80em;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+    height: 90em;
+  }
+}
+
+/* ************************************************ */
+/* BELOW 704PX (smaller Tablets) 704px/16px */
+/* ************************************************ */
+
+@media (max-width: 44em) {
+  html{
+    font-size: 30%;   
+  }
+
+  body{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+  }
+
+  main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .current{
+    width: 30%;
+  }
+
+  .btns--side{
+    position: absolute;
+    left: 10%;  
+  }
+
+  .btn--roll {
+width: max-content;  
+}
+.btn--hold {
+  top: 46.1rem;
+  width: max-content;  
+
+}
+  
+  .dice--1,
+  .dice--2,
+  .btn--roll,
+  .btn--hold{
+    margin-bottom:10%
+    /* justify-content: flex-end; */
+  }
+}
+
